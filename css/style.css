@@ -1,0 +1,176 @@
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+.login_textbox {
+    border-style: solid;
+    border-color: white;
+    background: white;
+    width: 505px;
+}
+
+.login_combo {
+    border-style: solid;
+    border-color: white;
+    background: white;
+    width: 200px;
+}
+
+.login_botao {
+    border-style: solid;
+    border-color: white;
+    background: white;
+}
+
+#resultado {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    display: table;
+    padding: 5px;
+    background: whitesmoke;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.titulo_lugar {
+    margin: 0 auto;
+    width: 550px;
+    height: auto;
+    display: table;
+    font-family: "sans-serif","verdana";
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.texto_lugar {
+    margin: 0 auto;
+    width: 550px;
+    height: auto;
+    display: table;
+    font-family: "sans-serif","verdana";
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#lugar_origem {
+    margin: 0 auto;
+    width: 550px;
+    height: 22px;
+    display: table;
+    background: white url('../img/origem.gif') 8px no-repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    
+    font-family: "sans-serif","verdana";
+    font-size: 14px; 
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+#lugar_destino {
+    margin: 0 auto;
+    width: 550px;
+    height: 20px;
+    display: table;
+    background: white url('../img/destino.gif') 8px no-repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    
+    font-family: "sans-serif","verdana";
+    font-size: 14px; 
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+#caminhos {
+    margin: 0 auto;
+    width: 550px;
+    height: 22px;
+    display: table;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    
+    font-family: "sans-serif","verdana";
+    font-size: 14px; 
+    padding-left: 25px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    float: left;
+    width: 100px;
+    height: 30px;
+    display: table;
+    text-align: right;
+    font-family: "sans-serif","verdana";
+    font-size: 15px;
+    padding: 4px;
+}
+
+.inputText {
+    width: 400px;
+    height: 30px;
+    display: table;
+    text-align: left;
+    font-family: "sans-serif","verdana";
+    font-size: 12px;    
+    margin-bottom: 10px;
+}
+
+#botao {
+    margin: 0 auto;
+    width: 550px;
+    height: auto;
+    display: table;
+    height: auto;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#botao_fake {
+    float: right;
+    width: 100px;
+    height: auto;
+    display: table;
+    height: auto;
+    text-align: right;
+    margin-top: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;  
+    background: white;
+}
+
+.atencao {
+    font-family: "sans-serif","verdana";
+    font-size: 12px;
+}
+
+#footer {
+    margin: 0 auto;
+    width: 580px;
+    height: auto;
+    display: table;
+    font-size: xx-small;
+    text-align: left;
+    color: #666666;
+    margin-top: 10px;
+}

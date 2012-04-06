@@ -2,8 +2,6 @@
 include 'class/database.php';
 include 'class/cidades.php';
 $cidades = new Cidades();
-$bd = new Database();
-$bd->connect();
 ?>
 <!DOCTYPE html>
 <html>

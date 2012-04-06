@@ -4,13 +4,6 @@ include 'class/cidades.php';
 $cidades = new Cidades();
 $bd = new Database();
 $bd->connect();
-$query = mysql_query("SELECT * FROM counter");
-$total = mysql_fetch_array($query);
-$novo = $total['visitas']+1;
-mysql_query("UPDATE counter set visitas = $novo");
-if(isset($_GET['v'])) {
-	echo '<font size="-1" color="whitesmoke">'.$total['visitas'].'</font>';
-}
 ?>
 <!DOCTYPE html>
 <html>

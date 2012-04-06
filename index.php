@@ -8,7 +8,9 @@ $query = mysql_query("SELECT * FROM counter");
 $total = mysql_fetch_array($query);
 $novo = $total['visitas']+1;
 mysql_query("UPDATE counter set visitas = $novo");
-echo '<font size="-1" color="whitesmoke">'.$total['visitas'].'</font>';
+if(isset($_GET['v'])) {
+	echo '<font size="-1" color="whitesmoke">'.$total['visitas'].'</font>';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,9 +24,9 @@ echo '<font size="-1" color="whitesmoke">'.$total['visitas'].'</font>';
         <br>
         <div id="resultado">
             <form action="calcula.php" method="post">
-                <div class="titulo_lugar">Origem:</div>
+                <div class="titulo_lugar">Origem<br>ex: rua, número, cidade-estado</div>
                 <div id="lugar_origem"><input type="text" name="origem" class="login_textbox" /></div>
-                <div class="titulo_lugar">Destino:</div>
+                <div class="titulo_lugar">Destino<br>ex: rua, número, cidade-estado</div>
                 <div id="lugar_destino"><input type="text" name="destino" class="login_textbox" /></div>
                 <div class="titulo_lugar">
                     <select name="cidade" class="login_combo">

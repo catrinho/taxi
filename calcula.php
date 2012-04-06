@@ -19,12 +19,12 @@ $objTela = new Tela();
         <div align="center" class="atencao"><a href="index.php"><img src="img/logo.png" alt="taxi" border="0" /></a><br></div>
         <br>
         <div id="resultado">
-            <div class="titulo_lugar">Origem:</div>
-            <div id="lugar_origem"><?php echo $_POST['origem']; ?></div>
-            <div class="titulo_lugar">Destino:</div>
-            <div id="lugar_destino"><?php echo $_POST['destino']; ?></div>
             <?php
                 if($_POST['origem'] != "" OR $_POST['destino'] != "") {
+            echo '<div class="titulo_lugar">Origem:</div>
+                    <div id="lugar_origem">'.$_POST[origem].'</div>
+                    <div class="titulo_lugar">Destino:</div>
+                    <div id="lugar_destino">'.$_POST[destino].'</div>';
                     echo $objTela->mostraResultado($objPercurso);
                 } else {
                     echo "<br><div align='center' class='atencao'>Por favor preencha a origem e destino.</font></div><br>";

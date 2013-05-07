@@ -56,9 +56,10 @@ CREATE TABLE IF NOT EXISTS `tarifa` (
 --
 
 INSERT INTO `tarifa` (`id`, `cidade`, `bandeirada`, `b1_km`, `b2_km`) VALUES
-(1, 'Sao Paulo - SP', '4.10', '2.50', '3.25'),
-(2, 'Campinas - SP', '3.60', '2.20', '2.86'),
+(1, 'Sao Paulo - SP', '5.00', '2.70', '3.24'),
+(2, 'Campinas - SP', '4.40', '2.65', '3.45'),
 (3, 'Curitiba - PR', '4.00', '2.00', '2.30'),
-(4, 'Belo Horizonte - MG', '3.40', '2.10', '2.52'),
-(5, 'Florianopolis - SC', '3.40', '1.81', '2.16'),
-(6, 'Rio de Janeiro - RJ', '4.40', '1.60', '1.92');
+(4, 'Belo Horizonte - MG', '4,10', '2.40', '2.88'),
+(5, 'Florianopolis - SC', '3.80', '2.00', '2.40'),
+(6, 'Rio de Janeiro - RJ', '4.70', '1.70', '2.04');
+(7, 'Brasilia - DF', '4.80', '2.22', '2.82');
